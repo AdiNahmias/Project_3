@@ -167,11 +167,11 @@ int main(){
 //------------------------------------------------
     char word1[WORD];
     get_word(word1); //save first word
-    printf("the word is: %s\n",word1);
+    //printf("the word is: %s\n",word1);
     char line1[LINE];
     get_line(line1); //save first line
     char ch = line1[strlen(line1)-1]; // a or b
-    printf("function: %c\n",ch);
+    //printf("function: %c\n",ch);
 
     if(ch == 'a'){
         print_lines(word1);
